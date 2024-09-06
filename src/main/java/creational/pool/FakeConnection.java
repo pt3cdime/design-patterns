@@ -17,6 +17,7 @@ import java.sql.Statement;
 import java.sql.Struct;
 import java.util.Map;
 import java.util.Properties;
+import java.util.concurrent.Executor;
 
 /**
  * Based on: "Patterns in Java", Mark Grand.
@@ -119,7 +120,32 @@ public class FakeConnection implements Connection {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
+	
+	@Override
+	public void setSchema (String schema) throws SQLException {
+	
+	}
+	
+	@Override
+	public String getSchema () throws SQLException {
+		return "";
+	}
+	
+	@Override
+	public void abort (Executor executor) throws SQLException {
+	
+	}
+	
+	@Override
+	public void setNetworkTimeout (Executor executor, int milliseconds) throws SQLException {
+	
+	}
+	
+	@Override
+	public int getNetworkTimeout () throws SQLException {
+		return 0;
+	}
+	
 	@Override
 	public boolean getAutoCommit() throws SQLException {
 		// TODO Auto-generated method stub

@@ -14,16 +14,10 @@ public class ImageProxy implements Image {
 	public ImageProxy(String imageFilePath) {
 		this.imageFilePath = imageFilePath;
 	}
-
+	
+	
 	@Override
-	public void showImage() {
-
-		// create the Image Object only when the image is required to be shown
-
-		proxifiedImage = new HighResolutionImage(imageFilePath);
-
-		// now call showImage on realSubject
-		proxifiedImage.showImage();
-
+	public void displayImage () {
+	
 	}
 }

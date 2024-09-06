@@ -12,12 +12,10 @@ public class HighResolutionImage implements Image {
 		// load Image from disk into memory
 		// this is heavy and costly operation
 	}
-
+	
+	
 	@Override
-	public void showImage() {
-
-		// Actual Image rendering logic
-
+	public void displayImage () {
+	
 	}
-
 }
