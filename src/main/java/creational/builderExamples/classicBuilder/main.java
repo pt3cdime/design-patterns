@@ -1,4 +1,4 @@
-package creational.builder.classicBuilder;
+package creational.builderExamples.classicBuilder;
 
 public class main {
 	public static void main(String[] args){

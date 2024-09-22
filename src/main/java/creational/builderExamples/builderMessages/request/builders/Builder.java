@@ -1,11 +1,10 @@
-package creational.builder.builderMessages.request.builders;
+package creational.builderExamples.builderMessages.request.builders;
 
-import jdk.jshell.spi.ExecutionControl;
-
+//Could also be an abstract factory to remove duplication of fields :)
 public interface Builder {
 	Builder buildField001(Object request3cIsoMsg, Object outputMsg);
 	Builder buildField002(Object request3cIsoMsg, Object outputMsg);
-	Builder buildField003(Object request3cIsoMsg, Object outputMsg) throws ExecutionControl.NotImplementedException;
+	Builder buildField003(Object request3cIsoMsg, Object outputMsg);
 	Builder buildField004(Object request3cIsoMsg, Object outputMsg);
 	Builder buildField005(Object request3cIsoMsg, Object outputMsg);
 }
